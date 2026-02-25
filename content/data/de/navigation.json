@@ -1,0 +1,7 @@
+{
+  "hauptmenu": [
+    { "label": "Startseite", "href": "/" },
+    { "label": "Beispiel", "href": "/beispiel" }
+  ],
+  "cta": { "label": "Kontakt", "href": "/kontakt" }
+}

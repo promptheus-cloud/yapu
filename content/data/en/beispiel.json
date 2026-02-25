@@ -1,0 +1,22 @@
+{
+  "eintraege": [
+    {
+      "datum": "2026-02-25",
+      "datumFormatted": "Feb 25, 2026",
+      "titel": "First Entry",
+      "inhalt": "This is an example entry. It shows how the ContentCard component works — click to expand."
+    },
+    {
+      "datum": "2026-02-20",
+      "datumFormatted": "Feb 20, 2026",
+      "titel": "Second Entry",
+      "inhalt": "Another entry with expandable content. Data comes from content/data/en/beispiel.json."
+    },
+    {
+      "datum": "2026-02-15",
+      "datumFormatted": "Feb 15, 2026",
+      "titel": "Entry without details",
+      "inhalt": ""
+    }
+  ]
+}

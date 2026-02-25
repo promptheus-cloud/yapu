@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "title": "Webstack — Your Website",
+    "titleTemplate": "%s | Webstack",
+    "description": "A modern website built with Next.js, Tailwind CSS and Glassmorphism design."
+  },
+  "home": {
+    "heroTitel": "Welcome",
+    "heroUntertitel": "A modern website with Next.js 16, TypeScript, Tailwind CSS v4 and Glassmorphism design.",
+    "heroCta": "Learn more",
+    "heroBadge": "Webstack Template",
+    "featuresTitel": "Features",
+    "featuresText": "Everything you need to get started quickly."
+  },
+  "beispiel": {
+    "heroTitel": "Example Page",
+    "heroUntertitel": "This page demonstrates the content loader and ContentCard component."
+  },
+  "footer": {
+    "tagline": "Built with the Webstack starter kit.",
+    "navigation": "Navigation",
+    "kontakt": "Contact",
+    "firmenname": "My Company Ltd",
+    "ort": "Berlin, Germany",
+    "email": "info@example.com",
+    "copyright": "My Company Ltd. All rights reserved."
+  },
+  "nav": {
+    "menuLabel": "Menu",
+    "themeToggle": "Toggle dark mode"
+  },
+  "search": {
+    "label": "Search",
+    "placeholder": "Search...",
+    "shortcut": "Ctrl+K",
+    "noResults": "No results found."
+  }
+}

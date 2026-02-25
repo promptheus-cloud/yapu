@@ -1,0 +1,16 @@
+{
+  "features": [
+    {
+      "titel": "Quick Start",
+      "beschreibung": "Next.js 16 with App Router, TypeScript and Tailwind CSS v4. Everything preconfigured."
+    },
+    {
+      "titel": "Bilingual",
+      "beschreibung": "German and English from the start. next-intl with middleware-based routing."
+    },
+    {
+      "titel": "Design System",
+      "beschreibung": "OKLCH colors, Glassmorphism, Light/Dark mode. Swappable design presets."
+    }
+  ]
+}
