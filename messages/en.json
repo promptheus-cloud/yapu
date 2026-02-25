@@ -1,38 +1,45 @@
 {
   "metadata": {
-    "title": "Webstack — Your Website",
-    "titleTemplate": "%s | Webstack",
-    "description": "A modern website built with Next.js, Tailwind CSS and Glassmorphism design."
+    "title": "YAPU Solutions \u2014 Digital Tools for Microfinance",
+    "titleTemplate": "%s | YAPU Solutions",
+    "description": "We help microfinance institutions assess climate risks, measure impact, and make better lending decisions."
   },
   "home": {
-    "heroTitel": "Welcome",
-    "heroUntertitel": "A modern website with Next.js 16, TypeScript, Tailwind CSS v4 and Glassmorphism design.",
-    "heroCta": "Learn more",
-    "heroBadge": "Webstack Template",
-    "featuresTitel": "Features",
-    "featuresText": "Everything you need to get started quickly."
-  },
-  "beispiel": {
-    "heroTitel": "Example Page",
-    "heroUntertitel": "This page demonstrates the content loader and ContentCard component."
+    "heroTitle": "Smart finance.\nPeople first.",
+    "heroSubtitle": "We build digital tools that help microfinance institutions assess risks, measure impact, and make better lending decisions \u2014 so they can focus on the people who need it most.",
+    "heroCta": "Book a Demo",
+    "heroSecondaryCta": "See How It Works",
+    "heroBadge": "Social FinTech \u00b7 Berlin",
+    "impactTitle": "Impact in Numbers",
+    "solutionsTitle": "What We Build",
+    "solutionsSubtitle": "Three integrated modules that cover the full lending cycle \u2014 from field data collection to investor reporting.",
+    "partnersTitle": "Trusted By",
+    "partnersClients": "And trusted by microfinance institutions across Latin America and West Africa",
+    "howTitle": "How It Works",
+    "howSubtitle": "From integration to insight in three steps.",
+    "testimonialTitle": "What Our Partners Say",
+    "aboutTitle": "The Team Behind YAPU",
+    "aboutSubtitle": "11 people, two offices, one mission. YAPU derives from Yapuchiri \u2014 traditional leader farmers in the Bolivian Andes who collect, create, and share knowledge.",
+    "aboutBerlin": "Berlin, Germany",
+    "aboutQuito": "Quito, Ecuador",
+    "contactTitle": "Ready to modernize your microfinance operations?",
+    "contactSubtitle": "Let\u2019s talk about how YAPU can help your institution make smarter, greener lending decisions.",
+    "contactCta": "Book a Demo",
+    "contactEmail": "Or reach us at info@yapu.solutions"
   },
   "footer": {
-    "tagline": "Built with the Webstack starter kit.",
+    "tagline": "Smart finance. People first.",
     "navigation": "Navigation",
-    "kontakt": "Contact",
-    "firmenname": "My Company Ltd",
-    "ort": "Berlin, Germany",
-    "email": "info@example.com",
-    "copyright": "My Company Ltd. All rights reserved."
+    "contact": "Contact",
+    "company": "YAPU Solutions GmbH",
+    "berlin": "Sch\u00f6nhauser Allee 44A, 10435 Berlin",
+    "quito": "Av. Atahualpa E1-131, Quito, Ecuador",
+    "email": "info@yapu.solutions",
+    "copyright": "YAPU Solutions GmbH. All rights reserved.",
+    "builtBy": "Built by Promptheus"
   },
   "nav": {
     "menuLabel": "Menu",
     "themeToggle": "Toggle dark mode"
-  },
-  "search": {
-    "label": "Search",
-    "placeholder": "Search...",
-    "shortcut": "Ctrl+K",
-    "noResults": "No results found."
   }
 }

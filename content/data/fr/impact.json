@@ -1,0 +1,8 @@
+{
+  "metrics": [
+    { "number": "25+", "label": "Institutions Partenaires", "description": "Institutions de microfinance en Am\u00e9rique latine et en Afrique de l'Ouest" },
+    { "number": "15+", "label": "Pays", "description": "Op\u00e9rations actives de la Jama\u00efque au S\u00e9n\u00e9gal" },
+    { "number": "8", "label": "ODD Suivis", "description": "Align\u00e9s sur les Objectifs de D\u00e9veloppement Durable de l'ONU" },
+    { "number": "2017", "label": "Fond\u00e9e", "description": "Bas\u00e9e \u00e0 Berlin avec des bureaux \u00e0 Quito, \u00c9quateur" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "solutions": [
+    {
+      "title": "Plateforme de Risque Cr\u00e9dit",
+      "description": "Num\u00e9risez votre processus de pr\u00eat. Nos outils aident les \u00e9quipes terrain \u00e0 collecter des donn\u00e9es, \u00e9valuer les emprunteurs et prendre des d\u00e9cisions plus rapidement \u2014 m\u00eame hors ligne en zone rurale.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "Analyse Climat & Impact",
+      "description": "Mesurez ce qui compte. Suivez les risques environnementaux et l'impact social de chaque pr\u00eat, align\u00e9 sur 8 Objectifs de D\u00e9veloppement Durable.",
+      "icon": "leaf"
+    },
+    {
+      "title": "Rapports Investisseurs",
+      "description": "Montrez \u00e0 vos investisseurs un impact r\u00e9el. Certification de portefeuille, v\u00e9rification des finances vertes et rapports automatis\u00e9s \u2014 le tout sur une seule plateforme.",
+      "icon": "bar-chart-3"
+    }
+  ]
+}

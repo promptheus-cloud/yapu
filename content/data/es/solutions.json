@@ -1,0 +1,19 @@
+{
+  "solutions": [
+    {
+      "title": "Plataforma de Riesgo Crediticio",
+      "description": "Digitalice su proceso de cr\u00e9dito. Nuestras herramientas ayudan a equipos de campo a recopilar datos, evaluar prestatarios y tomar decisiones m\u00e1s r\u00e1pidas \u2014 incluso sin conexi\u00f3n en zonas rurales.",
+      "icon": "shield-check"
+    },
+    {
+      "title": "An\u00e1lisis Clim\u00e1tico y de Impacto",
+      "description": "Mida lo que importa. Rastree riesgos ambientales e impacto social para cada pr\u00e9stamo, alineado con 8 Objetivos de Desarrollo Sostenible.",
+      "icon": "leaf"
+    },
+    {
+      "title": "Reportes para Inversores",
+      "description": "Muestre a sus inversores impacto real. Certificaci\u00f3n de portafolios, verificaci\u00f3n de finanzas verdes e informes automatizados \u2014 todo en una plataforma.",
+      "icon": "bar-chart-3"
+    }
+  ]
+}

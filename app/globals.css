@@ -12,7 +12,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
   --color-chart-5: var(--chart-5);
   --color-chart-4: var(--chart-4);
@@ -46,67 +46,66 @@
 }
 
 /* ================================================================
-   LAYER 2: Color Palette (OKLCH)
-   Anpassen: Hue-Werte ändern für andere Farbwelt.
-   Alle Farben sind parametrisch über oklch(L C H) definiert.
+   LAYER 2: Color Palette — YAPU Teal (OKLCH, Hue 180-195)
+   Brand: #45B5B4 (teal), #1E5A64 (dark teal), #FF2A13 (accent red)
    ================================================================ */
 
 :root {
   --radius: 0.625rem;
 
-  /* Light Mode */
-  --background: oklch(0.965 0.005 230);
-  --foreground: oklch(0.22 0.03 240);
-  --card: oklch(1 0 0 / 40%);
-  --card-foreground: oklch(0.22 0.03 240);
-  --popover: oklch(1 0 0 / 85%);
-  --popover-foreground: oklch(0.22 0.03 240);
-  --primary: oklch(0.55 0.18 230);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.94 0.01 230);
-  --secondary-foreground: oklch(0.30 0.04 240);
-  --muted: oklch(0.94 0.008 230);
-  --muted-foreground: oklch(0.48 0.02 240);
-  --accent: oklch(0.48 0.20 250);
-  --accent-foreground: oklch(0.985 0 0);
+  /* Light Mode — YAPU Teal */
+  --background: oklch(0.97 0.004 190);
+  --foreground: oklch(0.20 0.03 195);
+  --card: oklch(1 0 0 / 50%);
+  --card-foreground: oklch(0.20 0.03 195);
+  --popover: oklch(1 0 0 / 88%);
+  --popover-foreground: oklch(0.20 0.03 195);
+  --primary: oklch(0.60 0.12 185);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.94 0.01 190);
+  --secondary-foreground: oklch(0.28 0.04 195);
+  --muted: oklch(0.94 0.008 190);
+  --muted-foreground: oklch(0.48 0.02 195);
+  --accent: oklch(0.58 0.20 25);
+  --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.82 0.015 230);
-  --input: oklch(0.82 0.015 230);
-  --ring: oklch(0.55 0.18 230);
-  --chart-1: oklch(0.55 0.18 230);
-  --chart-2: oklch(0.48 0.20 250);
-  --chart-3: oklch(0.58 0.12 210);
-  --chart-4: oklch(0.65 0.10 190);
-  --chart-5: oklch(0.50 0.15 270);
-  --brand: oklch(0.55 0.16 160);
+  --border: oklch(0.84 0.015 190);
+  --input: oklch(0.84 0.015 190);
+  --ring: oklch(0.60 0.12 185);
+  --chart-1: oklch(0.60 0.12 185);
+  --chart-2: oklch(0.58 0.20 25);
+  --chart-3: oklch(0.55 0.10 200);
+  --chart-4: oklch(0.65 0.08 170);
+  --chart-5: oklch(0.40 0.06 195);
+  --brand: oklch(0.40 0.06 195);
 }
 
 .dark {
-  /* Dark Mode */
-  --background: oklch(0.14 0.025 230);
-  --foreground: oklch(0.97 0.005 230);
-  --card: oklch(1 0 0 / 3%);
-  --card-foreground: oklch(0.97 0.005 230);
-  --popover: oklch(0.16 0.02 230 / 88%);
-  --popover-foreground: oklch(0.97 0.005 230);
-  --primary: oklch(0.78 0.10 200);
-  --primary-foreground: oklch(0.97 0.005 230);
-  --secondary: oklch(0.20 0.02 230);
-  --secondary-foreground: oklch(0.90 0.01 230);
-  --muted: oklch(0.20 0.015 230);
-  --muted-foreground: oklch(0.65 0.02 230);
-  --accent: oklch(0.68 0.17 145);
-  --accent-foreground: oklch(0.985 0 0);
+  /* Dark Mode — YAPU Teal */
+  --background: oklch(0.13 0.02 195);
+  --foreground: oklch(0.95 0.008 190);
+  --card: oklch(1 0 0 / 4%);
+  --card-foreground: oklch(0.95 0.008 190);
+  --popover: oklch(0.16 0.02 195 / 88%);
+  --popover-foreground: oklch(0.95 0.008 190);
+  --primary: oklch(0.72 0.10 185);
+  --primary-foreground: oklch(0.13 0.02 195);
+  --secondary: oklch(0.20 0.02 195);
+  --secondary-foreground: oklch(0.90 0.01 190);
+  --muted: oklch(0.20 0.015 195);
+  --muted-foreground: oklch(0.65 0.02 190);
+  --accent: oklch(0.65 0.18 25);
+  --accent-foreground: oklch(0.98 0 0);
   --destructive: oklch(0.704 0.191 22.216);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 20%);
-  --ring: oklch(0.78 0.10 200);
-  --chart-1: oklch(0.78 0.10 200);
-  --chart-2: oklch(0.68 0.17 145);
-  --chart-3: oklch(0.60 0.12 230);
-  --chart-4: oklch(0.70 0.10 180);
-  --chart-5: oklch(0.55 0.12 270);
-  --brand: oklch(0.78 0.12 160);
+  --ring: oklch(0.72 0.10 185);
+  --chart-1: oklch(0.72 0.10 185);
+  --chart-2: oklch(0.65 0.18 25);
+  --chart-3: oklch(0.60 0.08 200);
+  --chart-4: oklch(0.70 0.08 170);
+  --chart-5: oklch(0.50 0.06 195);
+  --brand: oklch(0.72 0.10 185);
 }
 
 /* ================================================================
@@ -120,78 +119,64 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 /* ================================================================
-   LAYER 4: DESIGN PRESET — Glassmorphism
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-   Ersetze diesen gesamten Block für einen anderen Look.
-   Benötigt: --card, --border, --primary, --accent aus Layer 2.
+   LAYER 4: DESIGN PRESET — YAPU Glassmorphism
    ================================================================ */
 
 /* --- Hero Section --- */
 
-.hero-section {
-  background: linear-gradient(
-    to bottom right,
-    var(--primary),
-    oklch(from var(--primary) l c h / 90%),
-    var(--accent)
-  );
-}
-
-.dark .hero-section {
+.hero-yapu {
+  position: relative;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 1.5rem 4rem;
   background: linear-gradient(
     135deg,
-    oklch(0.18 0.06 230 / 60%) 0%,
-    oklch(0.15 0.04 210 / 50%) 40%,
-    oklch(0.13 0.03 200 / 40%) 100%
+    oklch(0.35 0.07 195) 0%,
+    oklch(0.45 0.10 185) 40%,
+    oklch(0.55 0.12 180) 100%
   );
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  overflow: hidden;
 }
 
-.hero-with-image {
-  background-size: cover;
-  background-position: center 30%;
-  background-repeat: no-repeat;
-  position: relative;
-}
-
-.hero-with-image::before {
+.hero-yapu::before {
   content: '';
   position: absolute;
   inset: 0;
-  z-index: 0;
-  background: linear-gradient(180deg,
-    oklch(0.965 0.005 230 / 55%) 0%,
-    oklch(0.955 0.006 230 / 60%) 50%,
-    oklch(0.965 0.005 230 / 92%) 100%
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 80%, oklch(0.60 0.12 185 / 30%) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 20%, oklch(0.50 0.08 200 / 20%) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.dark .hero-yapu {
+  background: linear-gradient(
+    135deg,
+    oklch(0.15 0.04 195) 0%,
+    oklch(0.18 0.05 185) 40%,
+    oklch(0.13 0.03 200) 100%
   );
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
 }
 
-.hero-with-image > * {
-  position: relative;
-  z-index: 1;
-}
-
-.dark .hero-with-image::before {
-  background: linear-gradient(180deg,
-    oklch(0.14 0.025 230 / 70%) 0%,
-    oklch(0.17 0.028 235 / 75%) 60%,
-    oklch(0.15 0.025 230 / 95%) 100%
-  );
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-}
-
-.dark .hero-title {
-  background: linear-gradient(135deg, #FFFFFF 30%, var(--primary) 100%);
+.hero-yapu-title {
+  background: linear-gradient(135deg, #FFFFFF 30%, oklch(0.80 0.10 185) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.hero-yapu-badge {
+  border: 1px solid oklch(1 0 0 / 15%);
+  background: oklch(1 0 0 / 8%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
 }
 
 .hero-badge-dot {
@@ -199,8 +184,8 @@
 }
 
 @keyframes pulse-dot {
-  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 oklch(from var(--accent) l c h / 50%); }
-  50% { opacity: 0.8; box-shadow: 0 0 0 6px oklch(from var(--accent) l c h / 0%); }
+  0%, 100% { opacity: 1; box-shadow: 0 0 0 0 oklch(0.72 0.10 185 / 50%); }
+  50% { opacity: 0.8; box-shadow: 0 0 0 6px oklch(0.72 0.10 185 / 0%); }
 }
 
 /* --- Card Glassmorphism --- */
@@ -210,7 +195,7 @@
   overflow: hidden;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid oklch(0.70 0.02 230 / 20%);
+  border: 1px solid oklch(0.70 0.02 190 / 20%);
   border-radius: 16px;
   box-shadow: 0 4px 20px oklch(0 0 0 / 6%);
   transition: all 300ms ease;
@@ -218,15 +203,9 @@
 
 [data-slot="card"]:hover {
   background: oklch(1 0 0 / 55%);
-  border-color: oklch(0.70 0.02 230 / 35%);
+  border-color: oklch(0.70 0.02 190 / 35%);
   box-shadow: 0 8px 32px oklch(0 0 0 / 8%);
   transform: translateY(-2px);
-}
-
-[data-slot="dialog-content"] {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-color: oklch(0.70 0.02 230 / 15%);
 }
 
 .dark [data-slot="card"] {
@@ -243,12 +222,6 @@
   transform: translateY(-2px);
 }
 
-.dark [data-slot="dialog-content"] {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-color: oklch(1 0 0 / 15%);
-}
-
 /* ================================================================
    END OF DESIGN PRESET
    ================================================================ */
@@ -257,10 +230,24 @@
    LAYER 5: Component Styles
    ================================================================ */
 
-/* (Add project-specific component styles here) */
+.section-padding {
+  padding: 5rem 1.5rem;
+}
+
+/* Scroll offset for anchor links (sticky header height) */
+section[id] {
+  scroll-margin-top: 5rem;
+}
 
 /* ================================================================
    LAYER 6: Utilities & Animations
    ================================================================ */
 
-/* (Add project-specific animations here) */
+@keyframes float-up {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float-up {
+  animation: float-up 0.6s ease-out forwards;
+}

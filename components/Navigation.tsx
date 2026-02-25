@@ -8,7 +8,6 @@ import { useTheme } from "next-themes";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { loadContent } from "@/lib/content";
-import SearchDialog from "@/components/SearchDialog";
 
 interface NavItem {
   label: string;
@@ -20,9 +19,12 @@ interface NavData {
   cta: NavItem;
 }
 
+const localeLabels = { en: "EN", es: "ES", fr: "FR" } as const;
+type Locale = keyof typeof localeLabels;
+
 export default function Navigation() {
   const pathname = usePathname();
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const router = useRouter();
   const t = useTranslations("nav");
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -30,14 +32,11 @@ export default function Navigation() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
-  const navigationData = loadContent<NavData>("navigation", locale as "de" | "en");
+  const navigationData = loadContent<NavData>("navigation", locale as "en" | "es" | "fr");
 
-  const isActive = (href: string) => {
-    const localePath = `/${locale}${href}`;
-    return pathname === localePath || (href !== "/" && pathname.startsWith(localePath));
-  };
+  const isAnchor = (href: string) => href.startsWith("#");
 
-  const switchLocale = (newLocale: "de" | "en") => {
+  const switchLocale = (newLocale: Locale) => {
     const pathWithoutLocale = pathname.replace(`/${locale}`, "") || "/";
     router.replace(pathWithoutLocale, { locale: newLocale });
   };
@@ -46,24 +45,30 @@ export default function Navigation() {
     <header className="sticky top-0 z-50 border-b border-border/50 bg-background/80 backdrop-blur-md">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <Link href="/" className="text-xl font-bold text-primary">
-          Webstack
+          YAPU
         </Link>
 
         {/* Desktop */}
         <div className="hidden items-center gap-4 lg:flex">
-          {navigationData.hauptmenu.map((item) => (
-            <Link
-              key={item.href}
-              href={item.href}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                isActive(item.href) ? "text-primary" : "text-muted-foreground"
-              }`}
-            >
-              {item.label}
-            </Link>
-          ))}
-
-          <SearchDialog />
+          {navigationData.hauptmenu.map((item) =>
+            isAnchor(item.href) ? (
+              <a
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                {item.label}
+              </a>
+            ) : (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+              >
+                {item.label}
+              </Link>
+            )
+          )}
 
           <button
             onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
@@ -78,30 +83,34 @@ export default function Navigation() {
           </button>
 
           <div className="flex items-center gap-1 text-xs">
-            <button
-              onClick={() => switchLocale("de")}
-              className={`px-1.5 py-0.5 rounded transition-colors ${
-                locale === "de" ? "font-bold text-primary" : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              DE
-            </button>
-            <span className="text-muted-foreground/50">|</span>
-            <button
-              onClick={() => switchLocale("en")}
-              className={`px-1.5 py-0.5 rounded transition-colors ${
-                locale === "en" ? "font-bold text-primary" : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              EN
-            </button>
+            {(Object.keys(localeLabels) as Locale[]).map((loc, i) => (
+              <span key={loc} className="flex items-center">
+                {i > 0 && <span className="text-muted-foreground/50 mx-0.5">|</span>}
+                <button
+                  onClick={() => switchLocale(loc)}
+                  className={`px-1.5 py-0.5 rounded transition-colors ${
+                    locale === loc ? "font-bold text-primary" : "text-muted-foreground hover:text-foreground"
+                  }`}
+                >
+                  {localeLabels[loc]}
+                </button>
+              </span>
+            ))}
           </div>
 
-          <Button asChild size="sm">
-            <Link href={navigationData.cta.href}>
-              {navigationData.cta.label}
-            </Link>
-          </Button>
+          {isAnchor(navigationData.cta.href) ? (
+            <Button asChild size="sm">
+              <a href={navigationData.cta.href}>
+                {navigationData.cta.label}
+              </a>
+            </Button>
+          ) : (
+            <Button asChild size="sm">
+              <Link href={navigationData.cta.href}>
+                {navigationData.cta.label}
+              </Link>
+            </Button>
+          )}
         </div>
 
         {/* Mobile Toggle */}
@@ -118,19 +127,17 @@ export default function Navigation() {
             )}
           </button>
           <div className="flex items-center gap-1 text-xs">
-            <button
-              onClick={() => switchLocale("de")}
-              className={locale === "de" ? "font-bold text-primary" : "text-muted-foreground"}
-            >
-              DE
-            </button>
-            <span className="text-muted-foreground/50">|</span>
-            <button
-              onClick={() => switchLocale("en")}
-              className={locale === "en" ? "font-bold text-primary" : "text-muted-foreground"}
-            >
-              EN
-            </button>
+            {(Object.keys(localeLabels) as Locale[]).map((loc, i) => (
+              <span key={loc} className="flex items-center">
+                {i > 0 && <span className="text-muted-foreground/50 mx-0.5">|</span>}
+                <button
+                  onClick={() => switchLocale(loc)}
+                  className={locale === loc ? "font-bold text-primary" : "text-muted-foreground"}
+                >
+                  {localeLabels[loc]}
+                </button>
+              </span>
+            ))}
           </div>
           <button
             className="lg:hidden"
@@ -146,23 +153,40 @@ export default function Navigation() {
       {mobileOpen && (
         <div className="border-t border-border/50 bg-background px-6 py-4 lg:hidden">
           <div className="flex flex-col gap-4">
-            {navigationData.hauptmenu.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                onClick={() => setMobileOpen(false)}
-                className={`text-sm font-medium transition-colors hover:text-primary ${
-                  isActive(item.href) ? "text-primary" : "text-muted-foreground"
-                }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Button asChild size="sm" className="w-fit">
-              <Link href={navigationData.cta.href} onClick={() => setMobileOpen(false)}>
-                {navigationData.cta.label}
-              </Link>
-            </Button>
+            {navigationData.hauptmenu.map((item) =>
+              isAnchor(item.href) ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMobileOpen(false)}
+                  className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
+                >
+                  {item.label}
+                </Link>
+              )
+            )}
+            {isAnchor(navigationData.cta.href) ? (
+              <Button asChild size="sm" className="w-fit">
+                <a href={navigationData.cta.href} onClick={() => setMobileOpen(false)}>
+                  {navigationData.cta.label}
+                </a>
+              </Button>
+            ) : (
+              <Button asChild size="sm" className="w-fit">
+                <Link href={navigationData.cta.href} onClick={() => setMobileOpen(false)}>
+                  {navigationData.cta.label}
+                </Link>
+              </Button>
+            )}
           </div>
         </div>
       )}

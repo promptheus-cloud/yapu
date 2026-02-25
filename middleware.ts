@@ -8,5 +8,5 @@ export default function middleware(req: Request) {
 }
 
 export const config = {
-  matcher: ["/", "/(de|en)/:path*"],
+  matcher: ["/", "/(en|es|fr)/:path*"],
 };

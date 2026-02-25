@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "number": 1,
+      "title": "Conectar",
+      "description": "Integre YAPU en sus sistemas existentes por API, o use nuestra aplicaci\u00f3n independiente. La configuraci\u00f3n toma d\u00edas, no meses.",
+      "icon": "plug"
+    },
+    {
+      "number": 2,
+      "title": "Recopilar",
+      "description": "Sus equipos de campo recopilan datos con nuestras herramientas m\u00f3viles \u2014 incluso sin conexi\u00f3n en zonas rurales. Riesgos clim\u00e1ticos, perfiles de prestatarios, indicadores de impacto.",
+      "icon": "smartphone"
+    },
+    {
+      "number": 3,
+      "title": "Decidir",
+      "description": "Scoring impulsado por IA, informes automatizados y dashboards en tiempo real. Mejores decisiones para su equipo, impacto transparente para sus inversores.",
+      "icon": "bar-chart-3"
+    }
+  ]
+}

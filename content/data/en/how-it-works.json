@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "number": 1,
+      "title": "Connect",
+      "description": "Integrate YAPU into your existing systems via API, or use our standalone application. Setup takes days, not months.",
+      "icon": "plug"
+    },
+    {
+      "number": 2,
+      "title": "Collect",
+      "description": "Your field teams gather data with our mobile tools \u2014 even offline in rural areas. Climate risks, borrower profiles, impact indicators.",
+      "icon": "smartphone"
+    },
+    {
+      "number": 3,
+      "title": "Decide",
+      "description": "AI-powered scoring, automated reports, and real-time dashboards. Better decisions for your team, transparent impact for your investors.",
+      "icon": "bar-chart-3"
+    }
+  ]
+}

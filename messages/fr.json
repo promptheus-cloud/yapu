@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "title": "YAPU Solutions \u2014 Outils Num\u00e9riques pour la Microfinance",
+    "titleTemplate": "%s | YAPU Solutions",
+    "description": "Nous aidons les institutions de microfinance \u00e0 \u00e9valuer les risques climatiques, mesurer l'impact et prendre de meilleures d\u00e9cisions de cr\u00e9dit."
+  },
+  "home": {
+    "heroTitle": "Finance intelligente.\nL'humain d'abord.",
+    "heroSubtitle": "Nous construisons des outils num\u00e9riques qui aident les institutions de microfinance \u00e0 \u00e9valuer les risques, mesurer l'impact et prendre de meilleures d\u00e9cisions de cr\u00e9dit \u2014 pour qu'elles puissent se concentrer sur les personnes qui en ont le plus besoin.",
+    "heroCta": "Demander une D\u00e9mo",
+    "heroSecondaryCta": "Comment \u00e7a Marche",
+    "heroBadge": "Social FinTech \u00b7 Berlin",
+    "impactTitle": "Impact en Chiffres",
+    "solutionsTitle": "Ce que Nous Construisons",
+    "solutionsSubtitle": "Trois modules int\u00e9gr\u00e9s couvrant tout le cycle de pr\u00eat \u2014 de la collecte terrain aux rapports investisseurs.",
+    "partnersTitle": "Ils Nous Font Confiance",
+    "partnersClients": "Et la confiance d'institutions de microfinance en Am\u00e9rique latine et en Afrique de l'Ouest",
+    "howTitle": "Comment \u00e7a Marche",
+    "howSubtitle": "De l'int\u00e9gration \u00e0 l'insight en trois \u00e9tapes.",
+    "testimonialTitle": "Ce que Disent Nos Partenaires",
+    "aboutTitle": "L'\u00c9quipe Derri\u00e8re YAPU",
+    "aboutSubtitle": "11 personnes, deux bureaux, une mission. YAPU d\u00e9rive de Yapuchiri \u2014 des agriculteurs leaders traditionnels des Andes boliviennes qui collectent, cr\u00e9ent et partagent le savoir.",
+    "aboutBerlin": "Berlin, Allemagne",
+    "aboutQuito": "Quito, \u00c9quateur",
+    "contactTitle": "Pr\u00eat \u00e0 moderniser vos op\u00e9rations de microfinance ?",
+    "contactSubtitle": "Parlons de la fa\u00e7on dont YAPU peut aider votre institution \u00e0 prendre des d\u00e9cisions de cr\u00e9dit plus intelligentes et durables.",
+    "contactCta": "Demander une D\u00e9mo",
+    "contactEmail": "Ou contactez-nous \u00e0 info@yapu.solutions"
+  },
+  "footer": {
+    "tagline": "Finance intelligente. L'humain d'abord.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "company": "YAPU Solutions GmbH",
+    "berlin": "Sch\u00f6nhauser Allee 44A, 10435 Berlin",
+    "quito": "Av. Atahualpa E1-131, Quito, \u00c9quateur",
+    "email": "info@yapu.solutions",
+    "copyright": "YAPU Solutions GmbH. Tous droits r\u00e9serv\u00e9s.",
+    "builtBy": "Construit par Promptheus"
+  },
+  "nav": {
+    "menuLabel": "Menu",
+    "themeToggle": "Changer le mode sombre"
+  }
+}

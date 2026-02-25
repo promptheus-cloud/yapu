@@ -1,0 +1,8 @@
+{
+  "hauptmenu": [
+    { "label": "Soluciones", "href": "#solutions" },
+    { "label": "Impacto", "href": "#impact" },
+    { "label": "Nosotros", "href": "#about" }
+  ],
+  "cta": { "label": "Solicitar Demo", "href": "#contact" }
+}

@@ -2,7 +2,7 @@
   "hauptmenu": [
     { "label": "Solutions", "href": "#solutions" },
     { "label": "Impact", "href": "#impact" },
-    { "label": "About", "href": "#about" }
+    { "label": "\u00C0 propos", "href": "#about" }
   ],
-  "cta": { "label": "Book a Demo", "href": "#contact" }
+  "cta": { "label": "D\u00e9mo", "href": "#contact" }
 }

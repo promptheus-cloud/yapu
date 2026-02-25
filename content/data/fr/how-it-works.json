@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "number": 1,
+      "title": "Connecter",
+      "description": "Int\u00e9grez YAPU \u00e0 vos syst\u00e8mes existants par API, ou utilisez notre application autonome. La mise en place prend des jours, pas des mois.",
+      "icon": "plug"
+    },
+    {
+      "number": 2,
+      "title": "Collecter",
+      "description": "Vos \u00e9quipes terrain collectent des donn\u00e9es avec nos outils mobiles \u2014 m\u00eame hors ligne en zone rurale. Risques climatiques, profils d'emprunteurs, indicateurs d'impact.",
+      "icon": "smartphone"
+    },
+    {
+      "number": 3,
+      "title": "D\u00e9cider",
+      "description": "Scoring aliment\u00e9 par l'IA, rapports automatis\u00e9s et tableaux de bord en temps r\u00e9el. De meilleures d\u00e9cisions pour votre \u00e9quipe, un impact transparent pour vos investisseurs.",
+      "icon": "bar-chart-3"
+    }
+  ]
+}

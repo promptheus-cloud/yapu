@@ -1,0 +1,8 @@
+{
+  "metrics": [
+    { "number": "25+", "label": "Partner Institutions", "description": "Microfinance institutions across Latin America and West Africa" },
+    { "number": "15+", "label": "Countries", "description": "Active operations from Jamaica to Senegal" },
+    { "number": "8", "label": "SDGs Tracked", "description": "Aligned with UN Sustainable Development Goals" },
+    { "number": "2017", "label": "Founded", "description": "Berlin-based with offices in Quito, Ecuador" }
+  ]
+}
