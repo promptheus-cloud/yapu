@@ -59,7 +59,7 @@ Single-Page mit Anchor-Sektionen:
 | **Service** | `yapu.service` (systemd) |
 | **Reverse Proxy** | nginx -> Port 3002 |
 | **Domain** | yapu.promptheus.cloud |
-| **Repo** | github.com/Marlin-hi/yapu-pitch (public) |
+| **Repo** | github.com/promptheus-cloud/yapu (public) |
 
 ### Deployment
 
