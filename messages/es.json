@@ -1,45 +1,77 @@
 {
   "metadata": {
-    "title": "YAPU Solutions \u2014 Herramientas Digitales para Microfinanzas",
+    "title": "YAPU Solutions — Herramientas Digitales para Microfinanzas",
     "titleTemplate": "%s | YAPU Solutions",
-    "description": "Ayudamos a instituciones de microfinanzas a evaluar riesgos clim\u00e1ticos, medir impacto y tomar mejores decisiones crediticias."
+    "description": "Ayudamos a instituciones de microfinanzas a evaluar riesgos climáticos, medir impacto y tomar mejores decisiones crediticias."
   },
   "home": {
     "heroTitle": "Finanzas inteligentes.\nPersonas primero.",
-    "heroSubtitle": "Construimos herramientas digitales que ayudan a instituciones de microfinanzas a evaluar riesgos, medir impacto y tomar mejores decisiones crediticias \u2014 para que puedan enfocarse en quienes m\u00e1s lo necesitan.",
+    "heroSubtitle": "Construimos herramientas digitales que ayudan a instituciones de microfinanzas a evaluar riesgos, medir impacto y tomar mejores decisiones crediticias — para que puedan enfocarse en quienes más lo necesitan.",
     "heroCta": "Solicitar Demo",
-    "heroSecondaryCta": "C\u00f3mo Funciona",
-    "heroBadge": "Social FinTech \u00b7 Berl\u00edn",
-    "impactTitle": "Impacto en N\u00fameros",
+    "heroSecondaryCta": "Cómo Funciona",
+    "heroBadge": "Social FinTech · Berlín",
+    "impactTitle": "Impacto en Números",
     "solutionsTitle": "Lo que Construimos",
-    "solutionsSubtitle": "Tres m\u00f3dulos integrados que cubren el ciclo completo de cr\u00e9dito \u2014 desde la recolecci\u00f3n de datos en campo hasta los reportes para inversores.",
+    "solutionsSubtitle": "Tres módulos integrados que cubren el ciclo completo de crédito — desde la recolección de datos en campo hasta los reportes para inversores.",
     "partnersTitle": "Confian en Nosotros",
-    "partnersClients": "Y la confianza de instituciones de microfinanzas en Am\u00e9rica Latina y \u00c1frica Occidental",
-    "howTitle": "C\u00f3mo Funciona",
-    "howSubtitle": "De la integraci\u00f3n al insight en tres pasos.",
+    "partnersClients": "Y la confianza de instituciones de microfinanzas en América Latina y África Occidental",
+    "howTitle": "Cómo Funciona",
+    "howSubtitle": "De la integración al insight en tres pasos.",
     "testimonialTitle": "Lo que Dicen Nuestros Socios",
-    "aboutTitle": "El Equipo Detr\u00e1s de YAPU",
-    "aboutSubtitle": "11 personas, dos oficinas, una misi\u00f3n. YAPU deriva de Yapuchiri \u2014 agricultores l\u00edderes tradicionales en los Andes bolivianos que recopilan, crean y comparten conocimiento.",
-    "aboutBerlin": "Berl\u00edn, Alemania",
+    "aboutTitle": "El Equipo Detrás de YAPU",
+    "aboutSubtitle": "11 personas, dos oficinas, una misión. YAPU deriva de Yapuchiri — agricultores líderes tradicionales en los Andes bolivianos que recopilan, crean y comparten conocimiento.",
+    "aboutBerlin": "Berlín, Alemania",
     "aboutQuito": "Quito, Ecuador",
-    "contactTitle": "\u00bfListo para modernizar sus operaciones de microfinanzas?",
-    "contactSubtitle": "Hablemos sobre c\u00f3mo YAPU puede ayudar a su instituci\u00f3n a tomar decisiones crediticias m\u00e1s inteligentes y sostenibles.",
+    "contactTitle": "¿Listo para modernizar sus operaciones de microfinanzas?",
+    "contactSubtitle": "Hablemos sobre cómo YAPU puede ayudar a su institución a tomar decisiones crediticias más inteligentes y sostenibles.",
     "contactCta": "Solicitar Demo",
-    "contactEmail": "O escr\u00edbanos a info@yapu.solutions"
+    "contactEmail": "O escríbanos a info@yapu.solutions"
   },
   "footer": {
     "tagline": "Finanzas inteligentes. Personas primero.",
-    "navigation": "Navegaci\u00f3n",
+    "navigation": "Navegación",
     "contact": "Contacto",
     "company": "YAPU Solutions GmbH",
-    "berlin": "Sch\u00f6nhauser Allee 44A, 10435 Berl\u00edn",
+    "berlin": "Schönhauser Allee 44A, 10435 Berlín",
     "quito": "Av. Atahualpa E1-131, Quito, Ecuador",
     "email": "info@yapu.solutions",
     "copyright": "YAPU Solutions GmbH. Todos los derechos reservados.",
-    "builtBy": "Construido por Promptheus"
+    "builtBy": "Construido por Promptheus",
+    "legalNotice": "Aviso Legal",
+    "privacyPolicy": "Política de Privacidad"
   },
   "nav": {
-    "menuLabel": "Men\u00fa",
+    "menuLabel": "Menú",
     "themeToggle": "Cambiar modo oscuro"
+  },
+  "investorServices": {
+    "title": "Servicios para Inversores",
+    "subtitle": "Mida las vulnerabilidades climáticas en todas sus operaciones y actúe sobre ellas.",
+    "approachTitle": "Nuestro Enfoque",
+    "servicesTitle": "Nuestros Servicios",
+    "pathTitle": "Camino a la Resiliencia",
+    "impactTitle": "Medición de Impacto",
+    "sdgsTitle": "Objetivos de Desarrollo Sostenible",
+    "useCasesTitle": "Casos de Uso",
+    "greenRadarTitle": "Radar de Finanzas Verdes",
+    "greenRadarText": "YAPU siempre está buscando nuevas oportunidades de financiamiento verde. Para distribuir y coordinar las próximas oportunidades con los socios adecuados, le invitamos a participar en nuestro Radar de Finanzas Verdes."
+  },
+  "dataInsights": {
+    "title": "Análisis de Datos",
+    "subtitle": "¡Ofrecemos análisis de datos basados en mejores prácticas internacionales!",
+    "offeringsTitle": "Nuestros Análisis de Datos"
+  },
+  "digitalTools": {
+    "title": "Herramientas Digitales",
+    "subtitle": "Con nuestra APP y constructor de API flexible, acceda a sus análisis de datos por todos los canales.",
+    "featuresTitle": "Características"
+  },
+  "impactPage": {
+    "title": "Impacto",
+    "subtitle": "Crear impacto positivo está en el ADN de YAPU Solutions."
+  },
+  "aboutPage": {
+    "title": "Nosotros",
+    "subtitle": "Hacemos operativa la financiación de resiliencia."
   }
 }

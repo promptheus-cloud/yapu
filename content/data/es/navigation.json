@@ -1,8 +1,10 @@
 {
   "hauptmenu": [
-    { "label": "Soluciones", "href": "#solutions" },
-    { "label": "Impacto", "href": "#impact" },
-    { "label": "Nosotros", "href": "#about" }
+    { "label": "Servicios para Inversores", "href": "/investor-services" },
+    { "label": "Análisis de Datos", "href": "/data-insights" },
+    { "label": "Herramientas Digitales", "href": "/digital-tools" },
+    { "label": "Impacto", "href": "/impact" },
+    { "label": "Nosotros", "href": "/about" }
   ],
   "cta": { "label": "Solicitar Demo", "href": "#contact" }
 }

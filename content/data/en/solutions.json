@@ -2,18 +2,21 @@
   "solutions": [
     {
       "title": "Credit Risk Platform",
-      "description": "Digitize your loan process. Our tools help field teams collect data, score borrowers, and make faster decisions \u2014 even offline in rural areas.",
-      "icon": "shield-check"
+      "description": "Digitize your loan process. Our tools help field teams collect data, score borrowers, and make faster decisions — even offline in rural areas.",
+      "icon": "shield-check",
+      "href": "/data-insights"
     },
     {
       "title": "Climate & Impact Analytics",
       "description": "Measure what matters. Track environmental risks and social impact for every loan, aligned with 8 Sustainable Development Goals.",
-      "icon": "leaf"
+      "icon": "leaf",
+      "href": "/investor-services"
     },
     {
       "title": "Investor Reporting",
-      "description": "Show your investors real impact. Portfolio certification, green finance verification, and automated reporting \u2014 all in one platform.",
-      "icon": "bar-chart-3"
+      "description": "Show your investors real impact. Portfolio certification, green finance verification, and automated reporting — all in one platform.",
+      "icon": "bar-chart-3",
+      "href": "/investor-services"
     }
   ]
 }

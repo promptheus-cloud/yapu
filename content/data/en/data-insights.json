@@ -1,0 +1,105 @@
+{
+  "offerings": [
+    {
+      "title": "Financial Projections",
+      "icon": "trending-up"
+    },
+    {
+      "title": "Algorithm-based Decisions",
+      "icon": "brain"
+    },
+    {
+      "title": "Climate Risks",
+      "icon": "cloud-rain"
+    },
+    {
+      "title": "Social Impact",
+      "icon": "heart-handshake"
+    },
+    {
+      "title": "Taxonomies",
+      "icon": "tags"
+    },
+    {
+      "title": "Staff Performance",
+      "icon": "users"
+    }
+  ],
+  "sections": [
+    {
+      "id": "credit-risk",
+      "title": "Credit Risk Assessment",
+      "description": "The data you gathered digitally is used to generate additional insights.",
+      "capabilities": [
+        "Credit ratings and scorings",
+        "Sector and activity risks",
+        "Cashflow projection"
+      ],
+      "benefits": [
+        "Faster credit disbursement through automated decision support",
+        "Less credit default based on a better view on risks"
+      ],
+      "icon": "shield-check"
+    },
+    {
+      "id": "financial-risks",
+      "title": "Social, Climate and Nature-Related Financial Risks",
+      "description": "We provide a clear view on all risks that can affect your investment through digitally integrated climate risk maps. In partnership with the International Center for Tropical Agriculture (CIAT), we provide comprehensive climate risk data.",
+      "benefits": [
+        "Clear view on climate- and nature-related risk in credit assessments",
+        "Risk assessment available for any sector, from agriculture to construction"
+      ],
+      "icon": "cloud-lightning"
+    },
+    {
+      "id": "resilience-finance",
+      "title": "Resilience Finance",
+      "description": "Verify your investments according to established taxonomies. Taxonomies define eligible investments for resilience finance. Automatic verification is included in the credit process, ensuring productivity and resiliency benefits are achieved.",
+      "benefits": [
+        "Identify green or social loans, ensure real impact",
+        "Prove impact to investors without extra effort",
+        "Comply with upcoming regulation"
+      ],
+      "highlight": {
+        "title": "Green Microcredit Verification",
+        "text": "Our methodology developed with UNEP assures correct fund use, with structured follow-up visits documented digitally to exclude greenwashing."
+      },
+      "icon": "leaf"
+    },
+    {
+      "id": "performance",
+      "title": "Performance Monitoring",
+      "description": "Monitor where your team spends most time, its productivity and on which clients they focus.",
+      "metrics": [
+        "Number of loans assessed in period",
+        "Time to fill in forms and most modified fields for crosschecks",
+        "Credit statuses"
+      ],
+      "benefits": [
+        "Detailed view on team performance",
+        "Clear view on customer focus"
+      ],
+      "icon": "bar-chart-3"
+    },
+    {
+      "id": "capacity-building",
+      "title": "Capacity Building",
+      "description": "We offer institutional assessment, consultancy, and training services to strengthen your organization.",
+      "services": [
+        {
+          "title": "Institutional Assessment",
+          "description": "Evaluation of capacities regarding digital finance, sustainable finance, ESG impact finance, and strategic management based on proven methodology."
+        },
+        {
+          "title": "Consultancy",
+          "description": "Technical expertise supporting tool adjustments, policy refinement, and strategic improvement with tangible outcomes focus."
+        },
+        {
+          "title": "Training",
+          "description": "Department-specific support for swift tool adoption with interactive, reviewable materials and training-of-trainers options."
+        }
+      ],
+      "icon": "graduation-cap"
+    }
+  ]
+}

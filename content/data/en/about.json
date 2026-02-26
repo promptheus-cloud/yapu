@@ -1,0 +1,79 @@
+{
+  "origin": {
+    "title": "YAPU Derives From Yapuchiri",
+    "text": "Yapuchiris are traditional 'leader' farmers in the Bolivian Andes who gather and distribute agroecological knowledge and risk management approaches locally. They blend ancestral practices with contemporary methods, experimenting on their land before teaching other farmers.\n\nFollowing this model, YAPU delivers digital solutions to financial institutions in developing nations serving vulnerable populations, microenterprises, and SMEs. The company assists partners in recognizing social, climate, and environmental financial risks while developing specialized loan products. YAPU also partners with investors to verify investment impact comprehensively."
+  },
+  "team": {
+    "title": "Our Team",
+    "members": [
+      "Esthela Gaspar",
+      "Christoph Jungfleisch",
+      "Hong Lem",
+      "Yessenia Naranjo",
+      "Delphin Ngamije",
+      "Katy Osculio",
+      "Jaime Osorio",
+      "Priscila Palate",
+      "Alexander Ulbrich",
+      "Sven Volland",
+      "Katherine Zambrano"
+    ]
+  },
+  "mission": {
+    "title": "Why We Do What We Do",
+    "text": "YAPU's creators recognized potential in delivering commercial, flexible digital solutions to the financial sector after extensive MSME finance experience. Financial institutions significantly influence developing economies — determining business success and agricultural outcomes. The company aims to support these institutions in empowering clients toward economic advancement and social progress while reducing environmental damage.\n\nThe platform enables institutions to digitize operations, strengthen risk frameworks, and enhance customer offerings. Institutions can broaden market reach and attract investment through documented impact."
+  },
+  "sdgs": {
+    "title": "Sustainable Development Goals",
+    "goals": [
+      {
+        "number": 1,
+        "title": "No Poverty",
+        "description": "Better lending conditions for underserved populations."
+      },
+      {
+        "number": 2,
+        "title": "Zero Hunger",
+        "description": "Supporting smallholder farmer food security and climate adaptation."
+      },
+      {
+        "number": 5,
+        "title": "Gender Equality",
+        "description": "Enabling vulnerable populations' financial access."
+      },
+      {
+        "number": 7,
+        "title": "Affordable and Clean Energy",
+        "description": "Financing energy efficient solutions for all."
+      },
+      {
+        "number": 8,
+        "title": "Decent Work and Economic Growth",
+        "description": "Fostering bottom-of-pyramid economic growth."
+      },
+      {
+        "number": 10,
+        "title": "Reduced Inequalities",
+        "description": "Improving lending equality."
+      },
+      {
+        "number": 12,
+        "title": "Responsible Consumption and Production",
+        "description": "Supporting sustainable production consultancy."
+      },
+      {
+        "number": 13,
+        "title": "Climate Action",
+        "description": "Enabling climate change adaptation resources."
+      },
+      {
+        "number": 15,
+        "title": "Life on Land",
+        "description": "Promoting biodiversity and sustainable land practices."
+      }
+    ]
+  },
+  "partnership": {
+    "text": "YAPU Solutions believes in developing local capacities through worldwide best practices. The organization pursues varied cooperation models while prioritizing local partners reflecting regional realities, solutions, expertise, and knowledge. The platform adapts to diverse local contexts including business approaches, lending methods, climate initiatives, and economic sectors."
+  }
+}

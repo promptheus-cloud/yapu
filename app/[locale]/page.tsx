@@ -1,12 +1,18 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { Link } from "@/i18n/navigation";
+import { loadContent } from "@/lib/content";
 import ImpactNumbers from "@/components/ImpactNumbers";
 import Solutions from "@/components/Solutions";
 import Partners from "@/components/Partners";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonial from "@/components/Testimonial";
 import ContactCTA from "@/components/ContactCTA";
+
+interface AboutData {
+  team: { members: string[] };
+}
 
 export default async function HomePage({
   params,
@@ -16,6 +22,7 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("home");
+  const aboutData = loadContent<AboutData>("about", locale as "en" | "es" | "fr");
 
   return (
     <>
@@ -86,9 +93,9 @@ export default async function HomePage({
       <section id="about" className="section-padding">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="mb-4 text-3xl font-bold">{t("aboutTitle")}</h2>
-          <p className="mb-12 text-lg text-muted-foreground">{t("aboutSubtitle")}</p>
+          <p className="mb-8 text-lg text-muted-foreground">{t("aboutSubtitle")}</p>
 
-          <div className="grid gap-8 md:grid-cols-2">
+          <div className="mb-8 grid gap-8 md:grid-cols-2">
             <div className="rounded-2xl border border-border/50 bg-card/50 p-6 backdrop-blur-sm">
               <div className="mb-2 text-2xl font-bold text-primary">HQ</div>
               <h3 className="text-lg font-semibold">{t("aboutBerlin")}</h3>
@@ -98,6 +105,23 @@ export default async function HomePage({
               <h3 className="text-lg font-semibold">{t("aboutQuito")}</h3>
             </div>
           </div>
+
+          <div className="mb-8 flex flex-wrap justify-center gap-2">
+            {aboutData.team.members.map((name) => (
+              <span
+                key={name}
+                className="rounded-full border border-border/50 bg-muted/50 px-3 py-1 text-sm"
+              >
+                {name}
+              </span>
+            ))}
+          </div>
+
+          <Button asChild variant="outline" className="gap-2">
+            <Link href="/about">
+              Learn more about us <ArrowRight className="h-4 w-4" />
+            </Link>
+          </Button>
         </div>
       </section>
 

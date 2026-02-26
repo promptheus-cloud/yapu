@@ -1,0 +1,84 @@
+{
+  "sections": [
+    {
+      "id": "front-office",
+      "title": "Your Digital Front Office",
+      "description": "Your team has all forms and client information ready at any time.",
+      "features": [
+        "Secure log-in and user control",
+        "Gather data in the field",
+        "Have results always at hand"
+      ],
+      "icon": "monitor"
+    },
+    {
+      "id": "team-management",
+      "title": "Your Digital Team Management",
+      "description": "Manage and supervise your team from anywhere.",
+      "features": [
+        "Assign activities and tasks",
+        "Supervise your team's progress",
+        "Monitor performance"
+      ],
+      "icon": "users"
+    },
+    {
+      "id": "loan-decision",
+      "title": "Your Digital Loan Decision",
+      "description": "Standardize and align your loan decisions — automated, transparent and seamless.",
+      "features": [
+        "Define rules for automated loan decisions",
+        "Organize virtual credit committees",
+        "Include our data insights for decisions or recommendations"
+      ],
+      "icon": "scale"
+    },
+    {
+      "id": "integration",
+      "title": "YAPU API: Integrate With Any System",
+      "description": "Include the improved data analysis in your existing systems.",
+      "features": [
+        "Integrate YAPU with your existing systems",
+        "We adjust to the needs of your business"
+      ],
+      "icon": "plug"
+    },
+    {
+      "id": "learning",
+      "title": "Your Learning Organization",
+      "description": "Take informed management decisions.",
+      "features": [
+        "Monitor in real-time",
+        "Steer your areas",
+        "Project your success"
+      ],
+      "icon": "lightbulb"
+    }
+  ],
+  "features": [
+    {
+      "title": "Workflow Management",
+      "icon": "git-branch"
+    },
+    {
+      "title": "Your Team Connected",
+      "icon": "wifi"
+    },
+    {
+      "title": "Offline Function",
+      "icon": "wifi-off"
+    },
+    {
+      "title": "Improved Scoring",
+      "icon": "target"
+    },
+    {
+      "title": "Geo-Localization",
+      "icon": "map-pin"
+    },
+    {
+      "title": "Security",
+      "icon": "lock"
+    }
+  ]
+}

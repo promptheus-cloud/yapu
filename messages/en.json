@@ -1,29 +1,29 @@
 {
   "metadata": {
-    "title": "YAPU Solutions \u2014 Digital Tools for Microfinance",
+    "title": "YAPU Solutions — Digital Tools for Microfinance",
     "titleTemplate": "%s | YAPU Solutions",
     "description": "We help microfinance institutions assess climate risks, measure impact, and make better lending decisions."
   },
   "home": {
     "heroTitle": "Smart finance.\nPeople first.",
-    "heroSubtitle": "We build digital tools that help microfinance institutions assess risks, measure impact, and make better lending decisions \u2014 so they can focus on the people who need it most.",
+    "heroSubtitle": "We build digital tools that help microfinance institutions assess risks, measure impact, and make better lending decisions — so they can focus on the people who need it most.",
     "heroCta": "Book a Demo",
     "heroSecondaryCta": "See How It Works",
-    "heroBadge": "Social FinTech \u00b7 Berlin",
+    "heroBadge": "Social FinTech · Berlin",
     "impactTitle": "Impact in Numbers",
     "solutionsTitle": "What We Build",
-    "solutionsSubtitle": "Three integrated modules that cover the full lending cycle \u2014 from field data collection to investor reporting.",
+    "solutionsSubtitle": "Three integrated modules that cover the full lending cycle — from field data collection to investor reporting.",
     "partnersTitle": "Trusted By",
     "partnersClients": "And trusted by microfinance institutions across Latin America and West Africa",
     "howTitle": "How It Works",
     "howSubtitle": "From integration to insight in three steps.",
     "testimonialTitle": "What Our Partners Say",
     "aboutTitle": "The Team Behind YAPU",
-    "aboutSubtitle": "11 people, two offices, one mission. YAPU derives from Yapuchiri \u2014 traditional leader farmers in the Bolivian Andes who collect, create, and share knowledge.",
+    "aboutSubtitle": "11 people, two offices, one mission. YAPU derives from Yapuchiri — traditional leader farmers in the Bolivian Andes who collect, create, and share knowledge.",
     "aboutBerlin": "Berlin, Germany",
     "aboutQuito": "Quito, Ecuador",
     "contactTitle": "Ready to modernize your microfinance operations?",
-    "contactSubtitle": "Let\u2019s talk about how YAPU can help your institution make smarter, greener lending decisions.",
+    "contactSubtitle": "Let's talk about how YAPU can help your institution make smarter, greener lending decisions.",
     "contactCta": "Book a Demo",
     "contactEmail": "Or reach us at info@yapu.solutions"
   },
@@ -32,14 +32,46 @@
     "navigation": "Navigation",
     "contact": "Contact",
     "company": "YAPU Solutions GmbH",
-    "berlin": "Sch\u00f6nhauser Allee 44A, 10435 Berlin",
+    "berlin": "Schönhauser Allee 44A, 10435 Berlin",
     "quito": "Av. Atahualpa E1-131, Quito, Ecuador",
     "email": "info@yapu.solutions",
     "copyright": "YAPU Solutions GmbH. All rights reserved.",
-    "builtBy": "Built by Promptheus"
+    "builtBy": "Built by Promptheus",
+    "legalNotice": "Legal Notice",
+    "privacyPolicy": "Privacy Policy"
   },
   "nav": {
     "menuLabel": "Menu",
     "themeToggle": "Toggle dark mode"
+  },
+  "investorServices": {
+    "title": "Investor Services",
+    "subtitle": "Measure climate vulnerabilities across all your operations and act upon them.",
+    "approachTitle": "Our Approach",
+    "servicesTitle": "Our Services",
+    "pathTitle": "Path to Resilience",
+    "impactTitle": "Impact Measurement",
+    "sdgsTitle": "Sustainable Development Goals",
+    "useCasesTitle": "Use Cases",
+    "greenRadarTitle": "Green Finance Radar",
+    "greenRadarText": "YAPU is always screening for new opportunities for green financing. To be able to distribute and coordinate upcoming opportunities with the right partners, we invite you to participate in our Green Finance Radar."
+  },
+  "dataInsights": {
+    "title": "Data Insights",
+    "subtitle": "We offer data insights based on international best practices!",
+    "offeringsTitle": "Our Data Insights"
+  },
+  "digitalTools": {
+    "title": "Digital Tools",
+    "subtitle": "With our flexible APP and API builder, you access your data insights via all channels.",
+    "featuresTitle": "Features"
+  },
+  "impactPage": {
+    "title": "Impact",
+    "subtitle": "Creating positive impact is at the DNA of YAPU Solutions."
+  },
+  "aboutPage": {
+    "title": "About",
+    "subtitle": "We make resilience finance operational."
   }
 }

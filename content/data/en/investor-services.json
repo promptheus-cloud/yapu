@@ -1,0 +1,86 @@
+{
+  "approach": {
+    "title": "Our Approach",
+    "text": "YAPU focuses on thriving resilience finance in informal markets through agri-, MSME and retail finance in developing countries. There, financial institutions often have considerable impact but do not measure it. With our data and tool solutions based on our proven methodologies, we help financial institutions make their impact visible, for every loan. Based on our graduation Model 'Path to Resilience' we support them to build up resilient portfolios by addressing vulnerabilities against climate impacts in an informed manner. All easily integrated in daily operations."
+  },
+  "services": [
+    "Strategy Development",
+    "Operational Consulting",
+    "Portfolio Certification",
+    "Portfolio Generation",
+    "Impact Measurement",
+    "Investor Value Proposition"
+  ],
+  "pathToResilience": {
+    "title": "Path to Resilience",
+    "description": "We support partner financial institutions in engaging in Resilience Finance through our graduation model 'Path to Resilience'. It provides our partners with a clear roadmap to actively engage in Resilience Finance by comprehensively assessing climate risks and addressing them through dedicated green loan products.",
+    "stages": [
+      {
+        "name": "Reaction",
+        "subtitle": "No understanding, no disclosure, no promotion",
+        "description": "Reaction only after the fact — problem already manifested."
+      },
+      {
+        "name": "Disclosure",
+        "subtitle": "Assessment and transparency",
+        "description": "Portfolio or institutional level assessment of environmental and social risks. Per transaction disclosure of gross climate risk and net climate risk."
+      },
+      {
+        "name": "Promotion",
+        "subtitle": "Active resilience building",
+        "description": "Promotion of resilience with quick reaction to manifested climate threats, specific resilience finance products, AI-based recommendation systems, alignment with national climate strategies and taxonomies."
+      }
+    ]
+  },
+  "impactMeasurement": {
+    "title": "Impact Measurement",
+    "dimensions": [
+      {
+        "name": "Environmental",
+        "description": "Each operation, like a loan, is assessed for its environmental risks and impacts. We create meaningful metrics based on digitally gathered data."
+      },
+      {
+        "name": "Social",
+        "description": "The social dimension of loans and investments is crucial, yet often not determined. We make it visible with our tools and data solutions."
+      }
+    ]
+  },
+  "sdgs": {
+    "title": "Sustainable Development Goals",
+    "description": "The Sustainable Development Goals (SDGs) are an internationally acclaimed framework to measure sustainable development established by the United Nations. We support you to measure the impact of every operation with regard to the SDGs.",
+    "goals": [1, 2, 5, 7, 8, 10, 12, 13, 15]
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "cases": [
+      {
+        "title": "Traditional Microfinance",
+        "description": "Traditional Microfinance commits in the first place to increase financial inclusion. The social impact of Microfinance is high, when done right. We support MFIs with a digital loan origination which includes tracking their social or environmental impact. To make it visible and increase it.",
+        "social": 70,
+        "environmental": 10,
+        "sdgs": [1, 2, 5, 8, 10]
+      },
+      {
+        "title": "Inclusive Resilience Finance",
+        "description": "Inclusive resilience finance is at the core of YAPU's mission. We gathered experience in pioneering international best practice projects and can rely on proven methodologies: To develop green loan products, establish taxonomies for resilience measures and verify green credits, so that financial inclusion is combined with effective climate change adaptation.",
+        "social": 100,
+        "environmental": 90,
+        "sdgs": [1, 2, 7, 10, 12, 13, 15]
+      },
+      {
+        "title": "Inclusive Sustainable Construction",
+        "description": "Sustainable construction is a key sector to reach resilience against climate events, but also energy efficient housing solutions. We support financial institutions to track their green performance in financing sustainable construction throughout portfolios. Thereby the basis for any required reporting on ESG is laid and any reportings required by regulation can be facilitated easily.",
+        "social": 80,
+        "environmental": 90,
+        "sdgs": [7, 10, 11, 13]
+      },
+      {
+        "title": "Energy Efficiency",
+        "description": "Energy efficiency is one of the great levers to contribute to mitigate climate change and will continue to grow in importance in the coming years. Energy efficiency can be financed on all levels, from retail to MSME. We support financial institutions to track their green performance in financing energy efficiency for every single credit and throughout portfolios. All integrated and with ease.",
+        "social": 20,
+        "environmental": 90,
+        "sdgs": [7, 10, 12, 13]
+      }
+    ]
+  }
+}
