@@ -11,7 +11,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
+  setRequestLocale(locale as "en" | "es" | "fr");
   const t = await getTranslations("home");
 
   return (

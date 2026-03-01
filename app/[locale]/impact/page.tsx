@@ -16,7 +16,7 @@ export default async function ImpactPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
+  setRequestLocale(locale as "en" | "es" | "fr");
   const t = await getTranslations("impactPage");
   const tHome = await getTranslations("home");
   const data = loadContent<ImpactData>(
