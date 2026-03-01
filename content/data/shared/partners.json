@@ -2,7 +2,7 @@
   "tiers": [
     {
       "label": "International Partners",
-      "partners": ["United Nations", "BNP Paribas", "IDB Invest", "IDB Lab", "FMO", "IFAD", "CAF"]
+      "partners": ["United Nations", "BNP Paribas", "IDB Invest", "IDB Lab", "FMO", "IFAD", "CAF", "Rice Exchange"]
     },
     {
       "label": "Implementation Partners",
@@ -11,7 +11,7 @@
   ],
   "clients": [
     "Genesis", "Banco de Loja", "RFD", "Codesarrollo", "Fundecooperaci\u00f3n",
-    "BFA", "Banco Adopem", "De la Mujer", "Banque Agricole",
-    "Coomultagro", "Caurie", "Nitlapan"
+    "BFA", "Banco Adopem", "Banco de la Mujer", "Banque Agricole",
+    "Coomultagro", "Tulc\u00e1n", "Guaranda", "Caurie", "COMUBA", "Nitlap\u00e1n"
   ]
 }

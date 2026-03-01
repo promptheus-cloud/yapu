@@ -1,0 +1,53 @@
+{
+  "sections": [
+    {
+      "id": "investor-services",
+      "title": "INVESTOR SERVICES",
+      "bullets": [
+        "Path to resilience",
+        "Measure your impact",
+        "Monitor your portfolio in real time"
+      ],
+      "href": "/investor-services",
+      "image": "/images/laptop-investor-services.png",
+      "imageAlt": "Laptop showing YAPU investor dashboard"
+    },
+    {
+      "id": "data-insights",
+      "title": "DATA INSIGHTS",
+      "bullets": [
+        "Loan decision support",
+        "Climate, environmental and social risks",
+        "Biodiversity risk",
+        "Staff performance"
+      ],
+      "href": "/data-insights",
+      "image": "/images/laptop-data-insights.png",
+      "imageAlt": "Laptop showing YAPU data insights dashboard"
+    },
+    {
+      "id": "digital-tools",
+      "title": "DIGITAL TOOLS",
+      "bullets": [
+        "Easy digital transformation",
+        "Improved risk management",
+        "Data insights"
+      ],
+      "href": "/digital-tools",
+      "image": "/images/phone-digital-tools.png",
+      "imageAlt": "Smartphone showing YAPU mobile app"
+    },
+    {
+      "id": "impact",
+      "title": "IMPACT",
+      "bullets": [
+        "Putting financial inclusion first",
+        "Promoting green finance",
+        "Fostering climate resilience for the most vulnerable"
+      ],
+      "href": "/impact",
+      "image": "/images/impact-header.jpg",
+      "imageAlt": "Scale for Resilience initiative"
+    }
+  ]
+}

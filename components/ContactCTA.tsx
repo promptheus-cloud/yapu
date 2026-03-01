@@ -14,7 +14,7 @@ export default function ContactCTA({
 }) {
   return (
     <section id="contact" className="section-padding">
-      <div className="mx-auto max-w-2xl text-center">
+      <div className="glass-gold mx-auto max-w-2xl p-10 text-center">
         <h2 className="mb-4 text-3xl font-bold">{title}</h2>
         <p className="mb-10 text-lg text-muted-foreground">{subtitle}</p>
 

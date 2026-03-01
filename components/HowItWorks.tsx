@@ -33,7 +33,7 @@ export default function HowItWorks({
 
         <div className="grid gap-8 md:grid-cols-3">
           {steps.map((step) => (
-            <div key={step.number} className="text-center">
+            <div key={step.number} className="glass-gold p-6 text-center">
               <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/10 text-primary">
                 {iconMap[step.icon]}
               </div>

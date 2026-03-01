@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import ThemeProvider from "@/components/ThemeProvider";
+import GlassBackground from "@/components/GlassBackground";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -59,8 +60,11 @@ export default async function LocaleLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider>
             <Navigation />
-            <main className="relative z-0 min-h-[calc(100vh-4rem)]">
-              {children}
+            <main className="relative min-h-[calc(100vh-4rem)]">
+              <GlassBackground />
+              <div className="relative z-10">
+                {children}
+              </div>
             </main>
             <Footer />
           </ThemeProvider>

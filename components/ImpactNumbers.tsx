@@ -16,12 +16,12 @@ export default function ImpactNumbers({
   const { metrics } = loadContent<{ metrics: Metric[] }>("impact", locale as "en" | "es" | "fr");
 
   return (
-    <section id="impact" className="section-padding bg-muted/30">
+    <section id="impact" className="section-padding">
       <div className="mx-auto max-w-6xl">
         <h2 className="mb-12 text-center text-3xl font-bold">{title}</h2>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
           {metrics.map((m) => (
-            <div key={m.label} className="text-center">
+            <div key={m.label} className="glass-gold p-6 text-center">
               <div className="text-4xl font-bold text-primary md:text-5xl">
                 {m.number}
               </div>
